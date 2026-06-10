@@ -1,0 +1,108 @@
+# 🚗 Car Price Prediction using Machine Learning
+
+## 📌 Project Overview
+
+This project predicts the selling price of a used car using Machine Learning.
+
+The model analyzes various factors such as car age, fuel type, kilometers driven, transmission type, and ownership history to estimate the selling price.
+
+This project was completed as part of the CodeAlpha Data Science Internship.
+
+---
+
+## 🎯 Objective
+
+To build a Machine Learning regression model that predicts the selling price of used cars based on their features.
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
+---
+
+## 📂 Dataset Features
+
+* Car_Name
+* Year
+* Selling_Price
+* Present_Price
+* Driven_kms
+* Fuel_Type
+* Selling_type
+* Transmission
+* Owner
+
+Target Variable:
+
+* Selling_Price
+
+---
+
+## 📊 Project Workflow
+
+### 1. Data Collection
+
+Loaded the car dataset using Pandas.
+
+### 2. Data Preprocessing
+
+* Checked missing values
+* Removed unnecessary columns
+* Encoded categorical features
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Correlation Heatmap
+* Distribution Plots
+* Feature Analysis
+
+### 4. Model Training
+
+Used Linear Regression algorithm.
+
+### 5. Model Evaluation
+
+Evaluated using:
+
+* R² Score
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+
+---
+
+## 📈 Results
+
+The model successfully predicts used car prices based on vehicle characteristics.
+
+Evaluation Metrics:
+
+* R² Score
+* MAE
+* RMSE
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+python car_price_prediction.py
+```
+
+---
+
+## 📚 Skills Learned
+
+* Data Cleaning
+* Feature Engineering
+* Regression Analysis
+* Data Visualization
+* Model Evaluation
+* Machine Learning Workflow
